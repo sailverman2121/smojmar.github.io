@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"/></script>
+<script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"/></script>
+<script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"/></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css">
+<style>
+</style>
+<body>
+<meta charset="UTF-8">
+<br>
+<table id="table" class="table table-striped table-bordered display nowrap" style="width:100%, font-family:'Courier New', Courier, monospace; font-size:250%" >
+<thead><tr><th>نماد</th>
+<th>حجم</th>
+<th>تعداد</th>
+<th>بازار</th>
+<th>گروه</th><th>30روز</th>
+<th>س</th><th>t</th></tr></thead><tbody>
+<tr><td>دقاضي</td>
+<td data-sort="10445">10K</td>
+<td>1</td>
+<td>4</td><td style="color:#1ae">43</td><td><img  src="http://tsetmc.com/tsev2/chart/img/Inst.aspx?i=64289770858657141"/></td><td><a href="https://www.sahamyab.com/hashtag/دقاضي/post"><img src="http://smojmar.github.io/upload/sahamYab.png"></a></td><td><a href="http://www.tsetmc.com/loader.aspx?ParTree=151311&i=64289770858657141"><img src="http://smojmar.github.io/upload/tseIcon.jpg"></a></td></tr><tr><td>نيرو</td>
+<td data-sort="17210">17K</td>
+<td>1</td>
+<td>4</td><td style="color:#136">31</td><td><img  src="http://tsetmc.com/tsev2/chart/img/Inst.aspx?i=39481233087768672"/></td><td><a href="https://www.sahamyab.com/hashtag/نيرو/post"><img src="http://smojmar.github.io/upload/sahamYab.png"></a></td><td><a href="http://www.tsetmc.com/loader.aspx?ParTree=151311&i=39481233087768672"><img src="http://smojmar.github.io/upload/tseIcon.jpg"></a></td></tr><tr><td>فنورد</td>
+<td data-sort="40969">41K</td>
+<td>18</td>
+<td>1</td><td style="color:#10e">27</td><td><img  src="http://tsetmc.com/tsev2/chart/img/Inst.aspx?i=56324206651661881"/></td><td><a href="https://www.sahamyab.com/hashtag/فنورد/post"><img src="http://smojmar.github.io/upload/sahamYab.png"></a></td><td><a href="http://www.tsetmc.com/loader.aspx?ParTree=151311&i=56324206651661881"><img src="http://smojmar.github.io/upload/tseIcon.jpg"></a></td></tr><tr><td>پارتين</td>
+<td data-sort="131000">131K</td>
+<td>1</td>
+<td>2</td><td style="color:#2a8">68</td><td><img  src="http://tsetmc.com/tsev2/chart/img/Inst.aspx?i=15090491830692116"/></td><td><a href="https://www.sahamyab.com/hashtag/پارتين/post"><img src="http://smojmar.github.io/upload/sahamYab.png"></a></td><td><a href="http://www.tsetmc.com/loader.aspx?ParTree=151311&i=15090491830692116"><img src="http://smojmar.github.io/upload/tseIcon.jpg"></a></td></tr><tr><td>وثخوز</td>
+<td data-sort="161882">162K</td>
+<td>61</td>
+<td>4</td><td style="color:#2bc">70</td><td><img  src="http://tsetmc.com/tsev2/chart/img/Inst.aspx?i=40043919653526083"/></td><td><a href="https://www.sahamyab.com/hashtag/وثخوز/post"><img src="http://smojmar.github.io/upload/sahamYab.png"></a></td><td><a href="http://www.tsetmc.com/loader.aspx?ParTree=151311&i=40043919653526083"><img src="http://smojmar.github.io/upload/tseIcon.jpg"></a></td></tr><tr><td>دهدشت</td>
+<td data-sort="393161">393K</td>
+<td>45</td>
+<td>4</td><td style="color:#1b8">44</td><td><img  src="http://tsetmc.com/tsev2/chart/img/Inst.aspx?i=15374483986949695"/></td><td><a href="https://www.sahamyab.com/hashtag/دهدشت/post"><img src="http://smojmar.github.io/upload/sahamYab.png"></a></td><td><a href="http://www.tsetmc.com/loader.aspx?ParTree=151311&i=15374483986949695"><img src="http://smojmar.github.io/upload/tseIcon.jpg"></a></td></tr><tr><td>وايرا</td>
+<td data-sort="1540712">2M</td>
+<td>97</td>
+<td>4</td><td style="color:#230">56</td><td><img  src="http://tsetmc.com/tsev2/chart/img/Inst.aspx?i=9141577977527107"/></td><td><a href="https://www.sahamyab.com/hashtag/وايرا/post"><img src="http://smojmar.github.io/upload/sahamYab.png"></a></td><td><a href="http://www.tsetmc.com/loader.aspx?ParTree=151311&i=9141577977527107"><img src="http://smojmar.github.io/upload/tseIcon.jpg"></a></td></tr>
+</tbody>
+</table>
+
+<script type="application/javascript" >
+$(document).ready(function() {
+    $('#table').DataTable( {
+        "order": [[ 1, "desc" ]],
+        "pageLength": 100,
+    } );
+    document.getElementById("table_filter").style.textAlign = "center";
+} );
+</script>
+</br>
+</br>
+<div style="text-align: center">
+<span style="font-family:'Courier New', Courier, monospace; font-size:200%">دانلود شده از <a style="" href="https://telegram.me/filtermarket1">کانال تلگرام </a></span>
+</div>
+</br>
+</br>
+</body>
+</html>
